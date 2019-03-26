@@ -188,7 +188,6 @@ export const SelectProductField = enhancer(
 
     render(){
       const { options, productOptions, value, label, loading, productsLoading } = this.props
-      // console.log(this.props)
       
       let className = 'updating-overlay'
       if(loading || productsLoading || this.state.isUpdating){

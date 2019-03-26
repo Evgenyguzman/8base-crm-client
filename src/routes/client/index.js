@@ -102,7 +102,6 @@ class Client extends React.Component {
                         </Column>
                       </Row>
                     </Column>
-                    {/* нужно отобразить список заказов со ссылками */}
                   </div>
                 );
               }}
